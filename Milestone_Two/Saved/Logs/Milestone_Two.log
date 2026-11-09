@@ -1497,3 +1497,42 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.11.09-03.18.42:345][459]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
 [2026.11.09-03.18.42:351][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
 [2026.11.09-03.18.42:421][461]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2026.11.09-03.20.38:617][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.11.09-03.20.39:481][428]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.09-03.20.39:515][428]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player/PlayerChar_BP] ([2] browsable assets)...
+[2026.11.09-03.20.39:585][428]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerChar_BP.PlayerChar_BP]
+[2026.11.09-03.20.39:585][428]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_BP]
+[2026.11.09-03.20.39:585][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_BP" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset" SILENT=true
+[2026.11.09-03.20.39:599][428]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_BP
+[2026.11.09-03.20.39:600][428]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerChar_BPFCFC46854D36EDFB02B3B89E642BADB3.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset'
+[2026.11.09-03.20.39:608][428]LogFileHelpers: InternalPromptForCheckoutAndSave took 126.413 ms (total: 802.180 ms)
+[2026.11.09-03.20.39:665][428]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.09-03.20.39:665][428]LogContentValidation: Enabled validators:
+[2026.11.09-03.20.39:665][428]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.09-03.20.39:665][428]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.09-03.20.39:665][428]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.09-03.20.39:665][428]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.09-03.20.39:665][428]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.09-03.20.39:665][428]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.09-03.20.39:665][428]AssetCheck: /Game/Player/PlayerChar_BP Validating asset
+[2026.11.09-03.21.19:082][812]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.09-03.21.53:203][605]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.09-03.22.05:364][972]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.09-03.22.10:556][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2026.11.09-03.22.11:787][701]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.09-03.22.11:847][701]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player/PlayerChar_BP] ([2] browsable assets)...
+[2026.11.09-03.22.11:910][701]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerChar_BP.PlayerChar_BP]
+[2026.11.09-03.22.11:910][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_BP]
+[2026.11.09-03.22.11:910][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_BP" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset" SILENT=true
+[2026.11.09-03.22.11:924][701]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_BP
+[2026.11.09-03.22.11:925][701]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerChar_BP361CE8CC4859F12B58067C9A283328FF.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset'
+[2026.11.09-03.22.11:935][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 148.014 ms (total: 950.194 ms)
+[2026.11.09-03.22.11:980][701]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.09-03.22.11:980][701]LogContentValidation: Enabled validators:
+[2026.11.09-03.22.11:980][701]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.09-03.22.11:980][701]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.09-03.22.11:980][701]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.09-03.22.11:980][701]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.09-03.22.11:980][701]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.09-03.22.11:980][701]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.09-03.22.11:980][701]AssetCheck: /Game/Player/PlayerChar_BP Validating asset
