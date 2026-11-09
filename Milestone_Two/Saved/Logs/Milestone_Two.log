@@ -1536,3 +1536,182 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.11.09-03.22.11:980][701]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.11.09-03.22.11:980][701]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.11.09-03.22.11:980][701]AssetCheck: /Game/Player/PlayerChar_BP Validating asset
+[2026.11.09-03.23.07:360][260]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.09-03.23.07:414][260]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/PlayerChar_BP] ([2] browsable assets)...
+[2026.11.09-03.23.07:414][260]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_BP]
+[2026.11.09-03.23.07:414][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_BP" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset" SILENT=true
+[2026.11.09-03.23.07:432][260]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_BP
+[2026.11.09-03.23.07:435][260]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerChar_BP60A346334AD1A35BB682F1B4E62ECDD3.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset'
+[2026.11.09-03.23.07:442][260]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.500 ms (total: 1.03 sec)
+[2026.11.09-03.23.07:496][260]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.09-03.23.07:496][260]LogContentValidation: Enabled validators:
+[2026.11.09-03.23.07:496][260]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.09-03.23.07:496][260]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.09-03.23.07:496][260]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.09-03.23.07:496][260]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.09-03.23.07:496][260]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.09-03.23.07:496][260]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.09-03.23.07:496][260]AssetCheck: /Game/Player/PlayerChar_BP Validating asset
+[2026.11.09-03.23.19:437][234]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.09-03.23.19:481][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/PlayerChar_BP] ([2] browsable assets)...
+[2026.11.09-03.23.19:481][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_BP]
+[2026.11.09-03.23.19:481][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_BP" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset" SILENT=true
+[2026.11.09-03.23.19:495][234]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_BP
+[2026.11.09-03.23.19:497][234]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerChar_BP90EA03394E16A69E952590A0ACD31157.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset'
+[2026.11.09-03.23.19:508][234]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.821 ms (total: 1.10 sec)
+[2026.11.09-03.23.19:564][234]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.09-03.23.19:564][234]LogContentValidation: Enabled validators:
+[2026.11.09-03.23.19:564][234]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.09-03.23.19:564][234]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.09-03.23.19:564][234]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.09-03.23.19:564][234]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.09-03.23.19:564][234]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.09-03.23.19:564][234]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.09-03.23.19:564][234]AssetCheck: /Game/Player/PlayerChar_BP Validating asset
+[2026.11.09-03.23.26:150][714]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.09-03.23.26:160][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.09-03.23.26:184][714]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_TestLevel
+[2026.11.09-03.23.26:186][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002027s)
+[2026.11.09-03.23.26:186][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/TestLevel.TestLevel to /Game/Map/UEDPIE_0_TestLevel.TestLevel (0.002072s)
+[2026.11.09-03.23.26:211][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2026.11.09-03.23.26:215][714]LogChaosDD: Creating Chaos Debug Draw Scene for world TestLevel
+[2026.11.09-03.23.26:216][714]LogPlayLevel: PIE: World Init took: (0.001611s)
+[2026.11.09-03.23.26:217][714]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.11.09-03.23.26:217][714]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.09-03.23.26:217][714]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.09-03.23.26:217][714]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.09-03.23.26:217][714]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.09-03.23.26:217][714]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.09-03.23.26:217][714]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.09-03.23.26:217][714]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.09-03.23.26:217][714]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.09-03.23.26:217][714]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.09-03.23.26:217][714]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.09-03.23.26:217][714]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.09-03.23.26:219][714]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.09-03.23.26:246][714]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (5- G535 Wireless Gaming Headset)
+[2026.11.09-03.23.26:246][714]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.09-03.23.26:246][714]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.09-03.23.26:247][714]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.09-03.23.26:247][714]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.11.09-03.23.26:247][714]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.11.09-03.23.26:249][714]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.11.09-03.23.26:249][714]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.11.09-03.23.26:249][714]LogInit: FAudioDevice initialized with ID 4.
+[2026.11.09-03.23.26:249][714]LogAudio: Display: Audio Device (ID: 4) registered with world 'TestLevel'.
+[2026.11.09-03.23.26:249][714]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.11.09-03.23.26:253][714]LogLoad: Game class is 'ArenaMode_C'
+[2026.11.09-03.23.26:254][714]LogWorld: Bringing World /Game/Map/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2026.11.08-19.23.26
+[2026.11.09-03.23.26:254][714]LogWorld: Bringing up level for play took: 0.000705
+[2026.11.09-03.23.26:257][714]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2026.11.09-03.23.26:260][714]PIE: Server logged in
+[2026.11.09-03.23.26:262][714]PIE: Play in editor total start time 0.102 seconds.
+[2026.11.09-03.23.26:311][715]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.09-03.23.33:525][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.09-03.23.33:525][431]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_TestLevel
+[2026.11.09-03.23.33:525][431]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2026.11.09-03.23.33:525][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.09-03.23.33:526][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.09-03.23.33:530][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.09-03.23.33:550][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.09-03.23.33:550][431]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.11.09-03.23.33:550][431]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2026.11.09-03.23.33:552][431]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2026.11.09-03.23.33:557][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.11.09-03.23.33:627][433]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2026.11.09-03.24.17:823][502]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3266.930176
+[2026.11.09-03.24.17:977][510]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.09-03.24.17:977][510]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3267.063965, Update Interval: 319.605713
+[2026.11.09-03.24.34:609][988]LogContentBrowser: Attempting asset rename: TestLevel -> ArenaMap
+[2026.11.09-03.24.36:670][988]LogSlate: Window 'Message' being destroyed
+[2026.11.09-03.24.36:675][988]Message dialog closed, result: Ok, title: Message, text: Source code, config INI, and text files may need Find/Replace for:
+
+
+TestLevel
+
+Otherwise assets can be missing from cooked builds. Continue with rename?
+[2026.11.09-03.24.36:687][988]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.09-03.24.36:734][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.11.09-03.24.36:752][988]LogSavePackage: Moving output files for package: /Game/Map/ArenaMap
+[2026.11.09-03.24.36:752][988]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/ArenaMapA06B33E7402900A0384287B73B0B7CCB.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Map/ArenaMap.umap'
+[2026.11.09-03.24.36:762][988]LogFileHelpers: Saving map 'ArenaMap' took 0.075
+[2026.11.09-03.24.36:763][988]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Map/TestLevel] ([1] browsable assets)...
+[2026.11.09-03.24.36:763][988]OBJ SavePackage: Finished generating thumbnails for package [/Game/Map/TestLevel]
+[2026.11.09-03.24.36:763][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/TestLevel" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Map/TestLevel.umap" SILENT=true
+[2026.11.09-03.24.36:770][988]LogSavePackage: Moving output files for package: /Game/Map/TestLevel
+[2026.11.09-03.24.36:771][988]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/TestLevel6CD430124858DCEBC4FEBCB52D7001BC.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Map/TestLevel.umap'
+[2026.11.09-03.24.36:773][988]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.885 ms (total: 1.18 sec)
+[2026.11.09-03.24.36:831][988]LogContentValidation: Display: Starting to validate 2 assets
+[2026.11.09-03.24.36:831][988]LogContentValidation: Enabled validators:
+[2026.11.09-03.24.36:831][988]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.09-03.24.36:831][988]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.09-03.24.36:831][988]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.09-03.24.36:831][988]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.09-03.24.36:831][988]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.09-03.24.36:831][988]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.09-03.24.36:831][988]AssetCheck: /Game/Map/ArenaMap Validating asset
+[2026.11.09-03.24.36:831][988]AssetCheck: /Game/Map/TestLevel Validating asset
+[2026.11.09-03.24.36:865][988]LogAutomationController: Ignoring very large delta of 2.26 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.11.09-03.24.36:867][988]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.09-03.25.07:816][882]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.11.09-03.25.07:822][882]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.11.09-03.25.07:830][882]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.11.09-03.25.07:840][883]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.11.09-03.25.38:345][333]LogContentBrowser: Attempting asset rename: NewBlueprint -> PlayerProj_BP
+[2026.11.09-03.25.38:352][333]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.11.09-03.25.41:500][612]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.09-03.25.41:546][612]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/PlayerProj_BP] ([2] browsable assets)...
+[2026.11.09-03.25.41:546][612]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerProj_BP]
+[2026.11.09-03.25.41:546][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerProj_BP" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerProj_BP.uasset" SILENT=true
+[2026.11.09-03.25.41:555][612]LogSavePackage: Moving output files for package: /Game/Player/PlayerProj_BP
+[2026.11.09-03.25.41:555][612]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerProj_BPB309A7D049D426DA78D88A98E9FCEE2A.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerProj_BP.uasset'
+[2026.11.09-03.25.41:566][612]LogFileHelpers: InternalPromptForCheckoutAndSave took 67.136 ms (total: 1.25 sec)
+[2026.11.09-03.25.41:612][612]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.09-03.25.41:612][612]LogContentValidation: Enabled validators:
+[2026.11.09-03.25.41:612][612]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.09-03.25.41:612][612]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.09-03.25.41:612][612]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.09-03.25.41:612][612]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.09-03.25.41:612][612]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.09-03.25.41:612][612]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.09-03.25.41:612][612]AssetCheck: /Game/Player/PlayerProj_BP Validating asset
+[2026.11.09-03.25.41:629][612]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.09-03.25.49:153][871]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/PlayerProj_BP.PlayerProj_BP
+[2026.11.09-03.25.49:154][871]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.11.09-03.26.11:422][840]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.11.09-03.28.15:756][907]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.09-03.28.15:811][907]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player/PlayerProj_BP] ([2] browsable assets)...
+[2026.11.09-03.28.15:818][907]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerProj_BP.PlayerProj_BP]
+[2026.11.09-03.28.15:818][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerProj_BP]
+[2026.11.09-03.28.15:818][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerProj_BP" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerProj_BP.uasset" SILENT=true
+[2026.11.09-03.28.15:828][907]LogSavePackage: Moving output files for package: /Game/Player/PlayerProj_BP
+[2026.11.09-03.28.15:829][907]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerProj_BP984C0D754870DF4C1BBB70B6BA0BE293.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerProj_BP.uasset'
+[2026.11.09-03.28.15:838][907]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.134 ms (total: 1.33 sec)
+[2026.11.09-03.28.15:894][907]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.09-03.28.15:894][907]LogContentValidation: Enabled validators:
+[2026.11.09-03.28.15:894][907]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.09-03.28.15:894][907]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.09-03.28.15:894][907]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.09-03.28.15:894][907]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.09-03.28.15:894][907]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.09-03.28.15:894][907]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.09-03.28.15:894][907]AssetCheck: /Game/Player/PlayerProj_BP Validating asset
+[2026.11.09-03.29.07:453][831]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.09-03.29.07:510][831]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player/PlayerProj_BP] ([2] browsable assets)...
+[2026.11.09-03.29.07:563][831]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerProj_BP.PlayerProj_BP]
+[2026.11.09-03.29.07:563][831]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerProj_BP]
+[2026.11.09-03.29.07:563][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerProj_BP" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerProj_BP.uasset" SILENT=true
+[2026.11.09-03.29.07:574][831]LogSavePackage: Moving output files for package: /Game/Player/PlayerProj_BP
+[2026.11.09-03.29.07:575][831]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerProj_BP0B1B605649BE52E39A32369AE5ABB0B1.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerProj_BP.uasset'
+[2026.11.09-03.29.07:583][831]LogFileHelpers: InternalPromptForCheckoutAndSave took 130.588 ms (total: 1.46 sec)
+[2026.11.09-03.29.07:629][831]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.09-03.29.07:629][831]LogContentValidation: Enabled validators:
+[2026.11.09-03.29.07:629][831]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.09-03.29.07:629][831]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.09-03.29.07:629][831]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.09-03.29.07:629][831]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.09-03.29.07:629][831]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.09-03.29.07:629][831]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.09-03.29.07:629][831]AssetCheck: /Game/Player/PlayerProj_BP Validating asset
