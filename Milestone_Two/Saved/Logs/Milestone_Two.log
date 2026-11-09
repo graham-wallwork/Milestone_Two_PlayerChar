@@ -1736,3 +1736,55 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2026.11.09-03.30.38:096][574]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.11.09-03.30.38:096][574]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.11.09-03.30.38:096][574]AssetCheck: /Game/Player/PlayerProj_BP Validating asset
+[2026.11.09-03.31.35:542][ 49]LogDerivedDataCache: C:/Users/graha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.11.09-03.34.38:651][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2026.11.09-03.34.38:654][907]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/ArenaMap' took 0.026
+[2026.11.09-03.34.38:655][907]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/PlayerCont_BP] ([2] browsable assets)...
+[2026.11.09-03.34.38:655][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerCont_BP]
+[2026.11.09-03.34.38:664][907]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/PlayerCont_BP_Auto2
+[2026.11.09-03.34.38:664][907]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerCont_BP_Auto23E5450054EEE5E96E70FB9AEC8D9016D.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/Autosaves/Game/Player/PlayerCont_BP_Auto2.uasset'
+[2026.11.09-03.34.38:666][907]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/ArenaMode] ([2] browsable assets)...
+[2026.11.09-03.34.38:666][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/ArenaMode]
+[2026.11.09-03.34.38:674][907]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/ArenaMode_Auto2
+[2026.11.09-03.34.38:675][907]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/ArenaMode_Auto2FBA6F2A045CDFB91AD348481754C95EA.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/Autosaves/Game/Player/ArenaMode_Auto2.uasset'
+[2026.11.09-03.34.38:676][907]LogFileHelpers: Auto-saving content packages took 0.022
+[2026.11.09-03.36.26:719][651]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3995.838379
+[2026.11.09-03.36.27:720][654]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.09-03.36.27:720][654]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3996.504395, Update Interval: 359.996338
+[2026.11.09-03.37.02:569][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.11.09-03.37.03:746][447]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.09-03.37.03:793][447]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player/PlayerProj_BP] ([2] browsable assets)...
+[2026.11.09-03.37.03:799][447]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerProj_BP.PlayerProj_BP]
+[2026.11.09-03.37.03:799][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerProj_BP]
+[2026.11.09-03.37.03:799][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerProj_BP" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerProj_BP.uasset" SILENT=true
+[2026.11.09-03.37.03:810][447]LogSavePackage: Moving output files for package: /Game/Player/PlayerProj_BP
+[2026.11.09-03.37.03:812][447]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerProj_BPE490C5B14E8C0693FC1458AB364A1F13.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerProj_BP.uasset'
+[2026.11.09-03.37.03:820][447]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.933 ms (total: 1.67 sec)
+[2026.11.09-03.37.03:875][447]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.09-03.37.03:875][447]LogContentValidation: Enabled validators:
+[2026.11.09-03.37.03:875][447]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.09-03.37.03:875][447]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.09-03.37.03:875][447]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.09-03.37.03:875][447]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.09-03.37.03:875][447]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.09-03.37.03:875][447]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.09-03.37.03:876][447]AssetCheck: /Game/Player/PlayerProj_BP Validating asset
+[2026.11.09-03.39.01:036][625]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.09-03.39.04:114][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2026.11.09-03.39.05:178][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.09-03.39.05:224][ 97]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player/PlayerProj_BP] ([2] browsable assets)...
+[2026.11.09-03.39.05:281][ 97]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerProj_BP.PlayerProj_BP]
+[2026.11.09-03.39.05:281][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerProj_BP]
+[2026.11.09-03.39.05:281][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerProj_BP" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerProj_BP.uasset" SILENT=true
+[2026.11.09-03.39.05:292][ 97]LogSavePackage: Moving output files for package: /Game/Player/PlayerProj_BP
+[2026.11.09-03.39.05:294][ 97]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerProj_BP3BB9E7AA4650642AD05BB0A95A798CA5.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerProj_BP.uasset'
+[2026.11.09-03.39.05:303][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.572 ms (total: 1.79 sec)
+[2026.11.09-03.39.05:358][ 97]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.09-03.39.05:358][ 97]LogContentValidation: Enabled validators:
+[2026.11.09-03.39.05:358][ 97]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.09-03.39.05:358][ 97]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.09-03.39.05:358][ 97]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.09-03.39.05:358][ 97]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.09-03.39.05:358][ 97]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.09-03.39.05:358][ 97]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.09-03.39.05:358][ 97]AssetCheck: /Game/Player/PlayerProj_BP Validating asset
