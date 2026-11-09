@@ -1163,3 +1163,93 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.11.09-02.51.36:846][880]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1305.965698
 [2026.11.09-02.51.37:846][883]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.11.09-02.51.37:846][883]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1306.632202, Update Interval: 344.153564
+[2026.11.09-02.57.08:761][947]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2026.11.09-02.57.10:609][947]LogSlate: Window 'New Level' being destroyed
+[2026.11.09-02.57.10:662][947]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.11.09-02.57.10:724][947]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2026.11.09-02.57.10:725][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.09-02.57.10:725][947]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2026.11.09-02.57.10:743][947]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.11.09-02.57.10:805][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2026.11.09-02.57.10:824][947]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_2'.
+[2026.11.09-02.57.10:824][947]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_2
+[2026.11.09-02.57.10:839][947]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.11.09-02.57.10:853][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.11.09-02.57.10:854][947]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.11.09-02.57.10:854][947]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.245ms to complete.
+[2026.11.09-02.57.10:898][947]LogAutomationController: Ignoring very large delta of 2.15 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.11.09-02.57.10:920][949]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.09-02.57.11:372][949]LogSlate: External Image Picker: DecompressImage failed
+[2026.11.09-02.57.43:293][596]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.11.09-02.57.45:377][799]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1674.494141
+[2026.11.09-02.57.45:519][813]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.09-02.57.45:519][813]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1674.626343, Update Interval: 341.058990
+[2026.11.09-02.58.05:224][768]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.11.09-02.58.12:365][470]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.11.09-02.58.33:617][796]LogStatusBar: Looking status bar with open content browser drawer...
+[2026.11.09-02.58.33:617][796]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2026.11.09-02.58.58:230][933]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.11.09-02.58.58:237][933]LogContentBrowser: Creating deferred item: NewFolder
+[2026.11.09-02.58.58:239][933]LogSlate: Took 0.000719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.11.09-02.58.58:268][935]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.11.09-02.59.01:007][203]LogContentBrowser: Attempting asset rename: NewFolder -> Map
+[2026.11.09-02.59.01:008][203]LogContentBrowser: End creating deferred item NewFolder
+[2026.11.09-02.59.15:101][258]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.11.09-02.59.57:856][720]LogSlate: Window 'Save Level As' being destroyed
+[2026.11.09-02.59.57:973][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2026.11.09-02.59.57:993][720]LogSavePackage: Moving output files for package: /Game/Map/TestLevel
+[2026.11.09-02.59.57:993][720]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/TestLevel9166A266449DECAF6B62A99533E168BE.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Map/TestLevel.umap'
+[2026.11.09-02.59.58:014][720]LogFileHelpers: Saving map 'TestLevel' took 0.150
+[2026.11.09-02.59.58:014][720]Cmd: MAP LOAD FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Map/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.11.09-02.59.58:030][720]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2026.11.09-02.59.58:030][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.09-02.59.58:043][720]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.11.09-02.59.58:046][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2026.11.09-02.59.58:047][720]LogStreaming: Display: FlushAsyncLoading(477): 1 QueuedPackages, 0 AsyncPackages
+[2026.11.09-02.59.58:049][720]LogAudio: Display: Audio Device (ID: 1) registered with world 'TestLevel'.
+[2026.11.09-02.59.58:049][720]LogChaosDD: Creating Chaos Debug Draw Scene for world TestLevel
+[2026.11.09-02.59.58:060][720]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.11.09-02.59.58:074][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.11.09-02.59.58:080][720]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.11.09-02.59.58:080][720]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.053ms to complete.
+[2026.11.09-02.59.58:138][720]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.09-02.59.58:138][720]LogContentValidation: Enabled validators:
+[2026.11.09-02.59.58:138][720]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.09-02.59.58:138][720]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.09-02.59.58:138][720]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.09-02.59.58:138][720]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.09-02.59.58:138][720]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.09-02.59.58:138][720]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.09-02.59.58:139][720]AssetCheck: /Game/Map/TestLevel Validating asset
+[2026.11.09-02.59.58:162][720]LogAutomationController: Ignoring very large delta of 25.20 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.11.09-02.59.58:175][720]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.09-02.59.58:190][721]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.09-02.59.58:677][722]LogSlate: External Image Picker: DecompressImage failed
+[2026.11.09-03.00.53:815][534]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.11.09-03.00.53:822][534]LogContentBrowser: Creating deferred item: NewFolder
+[2026.11.09-03.00.53:828][535]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.11.09-03.00.56:011][742]LogContentBrowser: Attempting asset rename: NewFolder -> Player
+[2026.11.09-03.00.56:012][742]LogContentBrowser: End creating deferred item NewFolder
+[2026.11.09-03.01.08:789][933]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.11.09-03.01.08:796][933]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.11.09-03.01.08:804][933]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.11.09-03.01.08:831][935]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.11.09-03.01.22:957][284]LogContentBrowser: Attempting asset rename: NewBlueprint -> PlayerChar_BP
+[2026.11.09-03.01.22:981][284]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.11.09-03.01.28:494][581]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.11.09-03.01.28:500][581]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.11.09-03.01.28:506][581]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.11.09-03.01.28:507][581]LogAutomationController: Ignoring very large delta of 2.51 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.11.09-03.01.28:515][582]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.11.09-03.01.35:349][220]LogContentBrowser: Attempting asset rename: NewBlueprint -> PlayerCont_BP
+[2026.11.09-03.01.35:355][220]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.11.09-03.01.40:606][587]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.11.09-03.01.40:611][587]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.11.09-03.01.40:619][587]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.11.09-03.01.40:626][588]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.11.09-03.01.45:784][ 65]LogContentBrowser: Attempting asset rename: NewBlueprint -> ArenaMode
+[2026.11.09-03.01.45:790][ 65]LogContentBrowser: End creating deferred item NewBlueprint
