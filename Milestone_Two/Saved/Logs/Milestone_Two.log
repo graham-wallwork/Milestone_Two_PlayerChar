@@ -2785,3 +2785,108 @@ Sampler Limit: 32
 [2026.11.09-03.57.12:784][986]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.11.09-03.57.12:784][986]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.11.09-03.57.12:784][986]AssetCheck: /Game/Player/PlayerProj_BP Validating asset
+[2026.11.09-03.58.32:819][608]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.09-03.58.32:827][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.09-03.58.32:855][608]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_ArenaMap
+[2026.11.09-03.58.32:857][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002022s)
+[2026.11.09-03.58.32:857][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/ArenaMap.ArenaMap to /Game/Map/UEDPIE_0_ArenaMap.ArenaMap (0.002068s)
+[2026.11.09-03.58.32:880][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.11.09-03.58.32:885][608]LogChaosDD: Creating Chaos Debug Draw Scene for world ArenaMap
+[2026.11.09-03.58.32:887][608]LogPlayLevel: PIE: World Init took: (0.001526s)
+[2026.11.09-03.58.32:888][608]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.11.09-03.58.32:888][608]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.09-03.58.32:888][608]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.09-03.58.32:888][608]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.09-03.58.32:888][608]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.09-03.58.32:888][608]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.09-03.58.32:888][608]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.09-03.58.32:888][608]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.09-03.58.32:888][608]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.09-03.58.32:888][608]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.09-03.58.32:888][608]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.09-03.58.32:888][608]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.09-03.58.32:890][608]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.09-03.58.32:915][608]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (5- G535 Wireless Gaming Headset)
+[2026.11.09-03.58.32:915][608]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.09-03.58.32:915][608]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.09-03.58.32:915][608]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.09-03.58.32:916][608]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.11.09-03.58.32:916][608]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.11.09-03.58.32:918][608]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.11.09-03.58.32:918][608]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.11.09-03.58.32:918][608]LogInit: FAudioDevice initialized with ID 10.
+[2026.11.09-03.58.32:918][608]LogAudio: Display: Audio Device (ID: 10) registered with world 'ArenaMap'.
+[2026.11.09-03.58.32:918][608]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.11.09-03.58.32:922][608]LogLoad: Game class is 'ArenaMode_C'
+[2026.11.09-03.58.32:922][608]LogWorld: Bringing World /Game/Map/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2026.11.08-19.58.32
+[2026.11.09-03.58.32:923][608]LogWorld: Bringing up level for play took: 0.000678
+[2026.11.09-03.58.32:925][608]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2026.11.09-03.58.32:927][608]PIE: Server logged in
+[2026.11.09-03.58.32:929][608]PIE: Play in editor total start time 0.102 seconds.
+[2026.11.09-03.58.32:973][609]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.09-03.58.39:366][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.09-03.58.39:366][206]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_ArenaMap
+[2026.11.09-03.58.39:366][206]LogWorld: UWorld::CleanupWorld for ArenaMap, bSessionEnded=true, bCleanupResources=true
+[2026.11.09-03.58.39:366][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.09-03.58.39:368][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.09-03.58.39:372][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.09-03.58.39:393][206]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.11.09-03.58.39:395][206]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.11.09-03.58.39:395][206]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2026.11.09-03.58.39:396][206]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2026.11.09-03.58.39:399][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.09-03.58.39:402][206]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2026.11.09-03.58.39:469][207]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2026.11.09-03.58.47:182][ 70]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.09-03.58.47:182][ 70]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.09-03.58.47:182][ 70]MaterialEditorStats: Shader Count: 0
+[2026.11.09-03.58.47:182][ 70]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.09-03.58.47:205][ 72]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.09-03.58.47:205][ 72]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.09-03.58.47:205][ 72]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.09-03.58.47:205][ 72]MaterialEditorStats: Shader Count: 2
+[2026.11.09-03.58.47:205][ 72]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.09-03.58.48:137][182]MaterialEditorStats: Base pass shader without light map: 86 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.09-03.58.48:137][182]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.09-03.58.48:137][182]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.09-03.58.48:137][182]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.09-03.58.48:137][182]MaterialEditorStats: Shader Count: 4
+[2026.11.09-03.58.48:137][182]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.09-03.58.50:044][405]LogMaterialEditor: Applying material Projectile_MAT
+[2026.11.09-03.58.50:154][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.11.09-03.58.51:116][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2026.11.09-03.58.52:306][538]LogMaterialEditor: Saving and Compiling material Projectile_MAT
+[2026.11.09-03.58.52:310][538]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.09-03.58.52:351][538]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Projectile_MAT] ([1] browsable assets)...
+[2026.11.09-03.58.52:360][538]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Player/Projectile_MAT.Projectile_MAT]
+[2026.11.09-03.58.52:360][538]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Projectile_MAT]
+[2026.11.09-03.58.52:360][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Projectile_MAT" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/Projectile_MAT.uasset" SILENT=true
+[2026.11.09-03.58.52:370][538]LogSavePackage: Moving output files for package: /Game/Player/Projectile_MAT
+[2026.11.09-03.58.52:371][538]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/Projectile_MAT704E30794DEEB25B6F240A8FE4BCC034.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/Projectile_MAT.uasset'
+[2026.11.09-03.58.52:382][538]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.735 ms (total: 2.81 sec)
+[2026.11.09-03.58.52:434][538]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.09-03.58.52:434][538]LogContentValidation: Enabled validators:
+[2026.11.09-03.58.52:434][538]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.09-03.58.52:434][538]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.09-03.58.52:434][538]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.09-03.58.52:434][538]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.09-03.58.52:434][538]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.09-03.58.52:434][538]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.09-03.58.52:434][538]AssetCheck: /Game/Player/Projectile_MAT Validating asset
