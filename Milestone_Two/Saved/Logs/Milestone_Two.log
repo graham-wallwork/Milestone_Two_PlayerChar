@@ -2313,3 +2313,61 @@ Sampler Limit: 32
 [2026.11.10-04.14.17:383][332]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.11.10-04.14.17:383][332]AssetCheck: /Game/Player/DestructibleObject_MAT Validating asset
 [2026.11.10-04.14.17:400][332]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: ================================================
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Total job queries 803, among them cache hits 310 (38.61%), DDC hits 344 (42.84%), Duplicates 70 (8.72%)
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Tracking 423 distinct input hashes that result in 315 distinct outputs (74.47%)
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: RAM used: 3.71 MiB of 1.60 GiB budget. Usage: 0.23%
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Shaders Compiled: 79
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Jobs assigned 79, completed 79 (100%)
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Average time worker was idle: 13.34 s
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Job execution time: average 0.71 s, max 1.23 s
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Job life time (pending + execution): average 0.77 s, max 1.30
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Shader code size: total 587.116 KiB, numShaders 79, average 7.432 KiB, min 4.273 KiB, max 11.245 KiB
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 26.77 s
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Jobs were issued in 79 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Average processing rate: 2.95 jobs/sec
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Total thread time: 46.828 s
+[2026.11.10-04.15.19:552][693]LogShaderCompilers: Display: Total thread preprocess time: 10.384 s
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display: Percentage time preprocessing: 22.18%
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display: Effective parallelization: 1.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.218675
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   22 times, average 0.93 sec, max 1.04 sec, min 0.78 sec)
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   33 times, average 0.52 sec, max 0.61 sec, min 0.36 sec)
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 43.51% of total time (compiled   22 times, average 0.93 sec, max 1.04 sec, min 0.78 sec)
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 36.38% of total time (compiled   33 times, average 0.52 sec, max 0.61 sec, min 0.36 sec)
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display:                                                 FLumenCardPS - 16.41% of total time (compiled   21 times, average 0.37 sec, max 0.42 sec, min 0.29 sec)
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display:                                             FDebugViewModePS - 1.55% of total time (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 1.34% of total time (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display: === Material stats ===
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display: Materials Translated:    214
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display: Material Translation Only: 0.05 s (45%)
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display: Material Cache Hits: 27 (13%)
+[2026.11.10-04.15.19:554][693]LogShaderCompilers: Display: ================================================
+[2026.11.10-04.15.34:782][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2026.11.10-04.15.36:463][620]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-04.15.36:517][620]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player/DestructibleObject_BP] ([2] browsable assets)...
+[2026.11.10-04.15.36:526][620]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP]
+[2026.11.10-04.15.36:526][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/DestructibleObject_BP]
+[2026.11.10-04.15.36:538][620]LogSavePackage: Moving output files for package: /Game/Player/DestructibleObject_BP
+[2026.11.10-04.15.36:540][620]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/DestructibleObject_BPBCF2D4C24FFE50777C05BA97AC7CDF68.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/DestructibleObject_BP.uasset'
+[2026.11.10-04.15.36:548][620]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.553 ms (total: 459.344 ms)
+[2026.11.10-04.15.36:599][620]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.10-04.15.36:599][620]LogContentValidation: Enabled validators:
+[2026.11.10-04.15.36:599][620]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-04.15.36:599][620]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-04.15.36:599][620]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-04.15.36:599][620]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-04.15.36:599][620]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-04.15.36:599][620]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-04.15.36:599][620]AssetCheck: /Game/Player/DestructibleObject_BP Validating asset
