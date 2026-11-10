@@ -2548,3 +2548,888 @@ Sampler Limit: 32
 [2026.11.10-04.23.26:380][365]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.11.10-04.23.26:380][365]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.11.10-04.23.26:380][365]AssetCheck: /Game/Map/ArenaMap Validating asset
+[2026.11.10-04.24.22:574][202]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.10-04.24.22:582][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.10-04.24.22:616][202]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_ArenaMap
+[2026.11.10-04.24.22:619][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003002s)
+[2026.11.10-04.24.22:619][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/ArenaMap.ArenaMap to /Game/Map/UEDPIE_0_ArenaMap.ArenaMap (0.003048s)
+[2026.11.10-04.24.22:643][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.11.10-04.24.22:645][202]LogChaosDD: Creating Chaos Debug Draw Scene for world ArenaMap
+[2026.11.10-04.24.22:647][202]LogPlayLevel: PIE: World Init took: (0.001878s)
+[2026.11.10-04.24.22:648][202]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.11.10-04.24.22:648][202]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.10-04.24.22:648][202]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.10-04.24.22:648][202]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.10-04.24.22:648][202]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.10-04.24.22:648][202]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.10-04.24.22:648][202]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.10-04.24.22:648][202]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.10-04.24.22:648][202]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.10-04.24.22:648][202]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.10-04.24.22:648][202]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.10-04.24.22:648][202]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.10-04.24.22:650][202]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.10-04.24.22:685][202]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (5- G535 Wireless Gaming Headset)
+[2026.11.10-04.24.22:685][202]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.10-04.24.22:685][202]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.10-04.24.22:685][202]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.10-04.24.22:686][202]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.11.10-04.24.22:686][202]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.11.10-04.24.22:689][202]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.11.10-04.24.22:689][202]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.11.10-04.24.22:689][202]LogInit: FAudioDevice initialized with ID 3.
+[2026.11.10-04.24.22:689][202]LogAudio: Display: Audio Device (ID: 3) registered with world 'ArenaMap'.
+[2026.11.10-04.24.22:689][202]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.11.10-04.24.22:694][202]LogLoad: Game class is 'ArenaMode_C'
+[2026.11.10-04.24.22:694][202]LogWorld: Bringing World /Game/Map/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2026.11.09-20.24.22
+[2026.11.10-04.24.22:694][202]LogWorld: Bringing up level for play took: 0.000974
+[2026.11.10-04.24.22:697][202]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2026.11.10-04.24.22:700][202]PIE: Server logged in
+[2026.11.10-04.24.22:702][202]PIE: Play in editor total start time 0.12 seconds.
+[2026.11.10-04.24.22:756][203]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.10-04.24.34:596][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.10-04.24.34:596][327]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_ArenaMap
+[2026.11.10-04.24.34:596][327]LogWorld: UWorld::CleanupWorld for ArenaMap, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-04.24.34:596][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.24.34:597][327]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.10-04.24.34:602][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.24.34:624][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.10-04.24.34:624][327]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.11.10-04.24.34:624][327]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.11.10-04.24.34:627][327]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.11.10-04.24.34:632][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.11.10-04.24.34:701][328]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2026.11.10-04.24.59:225][376]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-04.24.59:325][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.11.10-04.24.59:343][376]LogSavePackage: Moving output files for package: /Game/Map/ArenaMap
+[2026.11.10-04.24.59:344][376]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/ArenaMapE57F41634C2F25B55447D39135A598D4.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Map/ArenaMap.umap'
+[2026.11.10-04.24.59:357][376]LogFileHelpers: Saving map 'ArenaMap' took 0.080
+[2026.11.10-04.24.59:366][376]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.765 ms (total: 919.454 ms)
+[2026.11.10-04.24.59:428][376]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.10-04.24.59:429][376]LogContentValidation: Enabled validators:
+[2026.11.10-04.24.59:429][376]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-04.24.59:429][376]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-04.24.59:429][376]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-04.24.59:429][376]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-04.24.59:429][376]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-04.24.59:429][376]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-04.24.59:429][376]AssetCheck: /Game/Map/ArenaMap Validating asset
+[2026.11.10-04.25.32:713][620]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.10-04.25.32:719][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.10-04.25.32:719][620]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_ArenaMap
+[2026.11.10-04.25.32:722][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003062s)
+[2026.11.10-04.25.32:722][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/ArenaMap.ArenaMap to /Game/Map/UEDPIE_0_ArenaMap.ArenaMap (0.003091s)
+[2026.11.10-04.25.32:743][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.11.10-04.25.32:746][620]LogChaosDD: Creating Chaos Debug Draw Scene for world ArenaMap
+[2026.11.10-04.25.32:748][620]LogPlayLevel: PIE: World Init took: (0.001517s)
+[2026.11.10-04.25.32:748][620]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.11.10-04.25.32:748][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.10-04.25.32:748][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.10-04.25.32:748][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.10-04.25.32:748][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.10-04.25.32:748][620]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.10-04.25.32:748][620]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.10-04.25.32:748][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.10-04.25.32:748][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.10-04.25.32:748][620]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.10-04.25.32:748][620]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.10-04.25.32:748][620]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.10-04.25.32:750][620]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.10-04.25.32:775][620]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (5- G535 Wireless Gaming Headset)
+[2026.11.10-04.25.32:776][620]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.10-04.25.32:776][620]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.10-04.25.32:776][620]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.10-04.25.32:776][620]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.11.10-04.25.32:776][620]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.11.10-04.25.32:778][620]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.11.10-04.25.32:778][620]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.11.10-04.25.32:778][620]LogInit: FAudioDevice initialized with ID 4.
+[2026.11.10-04.25.32:778][620]LogAudio: Display: Audio Device (ID: 4) registered with world 'ArenaMap'.
+[2026.11.10-04.25.32:778][620]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.11.10-04.25.32:782][620]LogLoad: Game class is 'ArenaMode_C'
+[2026.11.10-04.25.32:782][620]LogWorld: Bringing World /Game/Map/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2026.11.09-20.25.32
+[2026.11.10-04.25.32:783][620]LogWorld: Bringing up level for play took: 0.000936
+[2026.11.10-04.25.32:785][620]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2026.11.10-04.25.32:787][620]PIE: Server logged in
+[2026.11.10-04.25.32:789][620]PIE: Play in editor total start time 0.07 seconds.
+[2026.11.10-04.25.32:875][621]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.10-04.26.25:476][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.10-04.26.25:476][243]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_ArenaMap
+[2026.11.10-04.26.25:476][243]LogWorld: UWorld::CleanupWorld for ArenaMap, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-04.26.25:476][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.26.25:478][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.10-04.26.25:482][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.26.25:501][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.10-04.26.25:501][243]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.11.10-04.26.25:501][243]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2026.11.10-04.26.25:503][243]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2026.11.10-04.26.25:509][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2026.11.10-04.26.25:572][244]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2026.11.10-04.26.47:226][302]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-04.26.47:226][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.26.47:268][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.11.10-04.26.47:996][364]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-04.26.47:996][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.26.48:033][364]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.11.10-04.26.50:475][590]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-04.26.50:475][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.26.50:536][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.11.10-04.27.47:107][ 62]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/PlayerChar_BP.PlayerChar_BP
+[2026.11.10-04.27.47:107][ 62]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2026.11.10-04.27.57:907][231]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2026.11.10-04.27.57:961][231]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.11.10-04.27.58:042][231]LogStreaming: Display: FlushAsyncLoading(533): 1 QueuedPackages, 0 AsyncPackages
+[2026.11.10-04.28.07:634][  5]LogSlate: Window 'Cylinder' being destroyed
+[2026.11.10-04.28.07:638][  5]LogSlate: Window 'Cylinder' being destroyed
+[2026.11.10-04.28.07:688][  5]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-04.28.07:688][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.28.07:756][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.11.10-04.28.13:560][591]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2026.11.10-04.28.13:569][591]LogContentBrowser: Creating deferred item: NewMaterial
+[2026.11.10-04.28.13:582][592]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2026.11.10-04.28.15:315][796]LogContentBrowser: Attempting asset rename: NewMaterial -> NewMaterial
+[2026.11.10-04.28.15:317][796]LogContentBrowser: End creating deferred item NewMaterial
+[2026.11.10-04.28.23:425][594]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Player/NewMaterial.NewMaterial
+[2026.11.10-04.28.23:427][594]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.11.10-04.28.23:933][594]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.28.23:933][594]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.28.23:933][594]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.28.23:933][594]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.28.23:999][596]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.28.23:999][596]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.28.23:999][596]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.28.23:999][596]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.28.23:999][596]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.28.23:999][596]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.28.25:506][722]LogSlate: Window 'NewMaterial' being destroyed
+[2026.11.10-04.28.25:513][722]LogSlate: Window 'NewMaterial' being destroyed
+[2026.11.10-04.28.25:548][722]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-04.28.25:548][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.28.25:623][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.11.10-04.28.43:352][752]LogContentBrowser: Attempting asset rename: NewMaterial -> PlayerChar_MAT
+[2026.11.10-04.28.43:456][752]LogMaterial: Display: MaterialInterface NewMaterial has a incorrectly name EditorOnlyData 'NewMaterialEditorOnlyData'. This may cause issues when running the editor on cooked data. Trying to rename it to the correct name 'PlayerChar_MATEditorOnlyData'.
+[2026.11.10-04.28.43:475][752]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-04.28.43:475][752]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/PlayerChar_MAT] ([1] browsable assets)...
+[2026.11.10-04.28.43:483][752]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Player/PlayerChar_MAT.PlayerChar_MAT]
+[2026.11.10-04.28.43:483][752]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_MAT]
+[2026.11.10-04.28.43:483][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_MAT" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_MAT.uasset" SILENT=true
+[2026.11.10-04.28.43:490][752]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_MAT
+[2026.11.10-04.28.43:490][752]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerChar_MAT8E76965E4B1C454E138726A9CC0753FB.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_MAT.uasset'
+[2026.11.10-04.28.43:492][752]LogFileHelpers: InternalPromptForCheckoutAndSave took 16.853 ms (total: 936.307 ms)
+[2026.11.10-04.28.43:528][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.11.10-04.28.43:551][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.11.10-04.28.43:573][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.11.10-04.28.43:626][752]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.10-04.28.43:626][752]LogContentValidation: Enabled validators:
+[2026.11.10-04.28.43:626][752]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-04.28.43:626][752]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-04.28.43:626][752]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-04.28.43:626][752]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-04.28.43:626][752]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-04.28.43:626][752]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-04.28.43:626][752]AssetCheck: /Game/Player/PlayerChar_MAT Validating asset
+[2026.11.10-04.28.43:661][752]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.10-04.28.46:157][  8]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Player/PlayerChar_MAT.PlayerChar_MAT
+[2026.11.10-04.28.46:160][  8]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.11.10-04.28.46:662][  8]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.28.46:662][  8]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.28.46:662][  8]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.28.46:662][  8]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.28.46:730][ 10]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.28.46:730][ 10]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.28.46:730][ 10]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.28.46:730][ 10]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.28.46:730][ 10]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.28.46:730][ 10]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.28.50:917][366]LogSlate: Window 'PlayerChar_MAT' being destroyed
+[2026.11.10-04.29.01:086][568]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.01:087][568]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.01:087][568]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.29.01:087][568]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.01:129][570]MaterialEditorStats: Base pass shader without light map: 84 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.01:129][570]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.01:129][570]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.01:129][570]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.01:129][570]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.29.01:129][570]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.06:131][159]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.06:131][159]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.06:131][159]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.29.06:131][159]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.06:170][161]MaterialEditorStats: Base pass shader without light map: 84 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.06:170][161]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.06:170][161]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.06:170][161]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.06:170][161]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.29.06:170][161]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.10:923][727]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2816.261475
+[2026.11.10-04.29.11:056][743]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.10-04.29.11:056][744]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2816.385986, Update Interval: 322.735077
+[2026.11.10-04.29.14:186][114]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.14:186][114]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.14:186][114]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.29.14:187][114]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.14:212][116]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.14:212][116]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.14:213][116]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.14:213][116]MaterialEditorStats: Shader Count: 2
+[2026.11.10-04.29.14:213][116]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.14:989][206]MaterialEditorStats: Base pass shader without light map: 84 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.14:989][206]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.14:989][206]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.14:989][206]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.14:989][206]MaterialEditorStats: Shader Count: 4
+[2026.11.10-04.29.14:989][206]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.20:457][848]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.20:457][848]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.20:457][848]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.29.20:457][848]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.20:480][851]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.20:480][851]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.20:480][851]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.20:481][851]MaterialEditorStats: Shader Count: 2
+[2026.11.10-04.29.20:481][851]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.21:131][928]MaterialEditorStats: Base pass shader without light map: 87 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.21:131][928]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.21:131][928]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.21:131][928]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.21:131][928]MaterialEditorStats: Shader Count: 4
+[2026.11.10-04.29.21:131][928]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.21:553][973]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.21:553][973]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.21:553][973]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.29.21:553][973]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.21:577][976]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.21:577][976]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.21:577][976]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.21:577][976]MaterialEditorStats: Shader Count: 2
+[2026.11.10-04.29.21:577][976]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.22:260][ 58]MaterialEditorStats: Base pass shader without light map: 86 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.22:260][ 58]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.22:260][ 58]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.22:260][ 58]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.22:260][ 58]MaterialEditorStats: Shader Count: 4
+[2026.11.10-04.29.22:260][ 58]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.24:375][308]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.24:375][308]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.24:375][308]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.29.24:375][308]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.24:397][311]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.24:398][311]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.24:398][311]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.24:398][311]MaterialEditorStats: Shader Count: 2
+[2026.11.10-04.29.24:398][311]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.25:057][390]MaterialEditorStats: Base pass shader without light map: 86 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.25:057][390]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.25:057][390]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.25:057][390]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.25:057][390]MaterialEditorStats: Shader Count: 4
+[2026.11.10-04.29.25:057][390]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.27:060][627]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.10-04.29.29:995][966]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.29:995][966]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.29:995][966]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.29.29:995][966]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.30:021][969]MaterialEditorStats: Base pass shader without light map: 84 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.30:021][969]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.30:021][969]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.30:021][969]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.30:021][969]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.29.30:021][969]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.34:326][434]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.34:326][434]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.34:326][434]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.29.34:326][434]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.34:365][436]MaterialEditorStats: Base pass shader without light map: 84 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.34:365][436]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.34:365][436]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.34:366][436]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.34:366][436]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.29.34:366][436]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.45:355][742]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.45:355][742]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.45:355][742]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.29.45:355][742]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.45:388][744]MaterialEditorStats: Base pass shader without light map: 84 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.45:388][744]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.45:388][744]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.45:388][744]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.45:388][744]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.29.45:388][744]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.48:080][ 63]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.48:080][ 63]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.48:080][ 63]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.29.48:080][ 63]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.48:121][ 65]MaterialEditorStats: Base pass shader without light map: 84 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.48:121][ 65]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.48:121][ 65]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.48:121][ 65]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.48:121][ 65]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.29.48:121][ 65]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.51:571][468]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.51:571][468]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.51:571][468]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.29.51:571][468]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.51:610][470]MaterialEditorStats: Base pass shader without light map: 84 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.51:610][470]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.51:610][470]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.51:610][470]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.51:610][470]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.29.51:610][470]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.57:805][178]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.57:805][178]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.57:805][178]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.29.57:805][178]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.29.57:852][180]MaterialEditorStats: Base pass shader without light map: 84 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.57:852][180]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.29.57:852][180]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.29.57:852][180]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.29.57:852][180]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.29.57:852][180]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.13:627][ 18]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.13:627][ 18]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.13:627][ 18]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.30.13:627][ 18]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.13:668][ 20]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.30.13:669][ 20]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.13:669][ 20]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.30.13:669][ 20]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.13:669][ 20]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.30.13:669][ 20]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.19:813][748]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.19:813][748]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.19:813][748]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.30.19:813][748]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.19:850][750]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.30.19:850][750]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.19:850][750]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.30.19:850][750]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.19:850][750]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.30.19:850][750]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: ================================================
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Total job queries 939, among them cache hits 420 (44.73%), DDC hits 355 (37.81%), Duplicates 70 (7.45%)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Tracking 449 distinct input hashes that result in 336 distinct outputs (74.83%)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: RAM used: 3.84 MiB of 1.60 GiB budget. Usage: 0.23%
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Shaders Compiled: 94
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Jobs assigned 94, completed 94 (100%)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Average time worker was idle: 52.25 s
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Job execution time: average 0.72 s, max 1.23 s
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Job life time (pending + execution): average 0.78 s, max 1.30
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Shader code size: total 683.933 KiB, numShaders 94, average 7.275 KiB, min 4.273 KiB, max 11.245 KiB
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 31.40 s
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Jobs were issued in 94 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Average processing rate: 2.99 jobs/sec
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Total thread time: 56.055 s
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Total thread preprocess time: 12.026 s
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Percentage time preprocessing: 21.45%
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Effective parallelization: 1.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.223143
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   26 times, average 0.93 sec, max 1.04 sec, min 0.78 sec)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   40 times, average 0.52 sec, max 0.61 sec, min 0.36 sec)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 43.36% of total time (compiled   26 times, average 0.93 sec, max 1.04 sec, min 0.78 sec)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 37.05% of total time (compiled   40 times, average 0.52 sec, max 0.61 sec, min 0.36 sec)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display:                                                 FLumenCardPS - 16.50% of total time (compiled   25 times, average 0.37 sec, max 0.43 sec, min 0.29 sec)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display:                                             FDebugViewModePS - 1.30% of total time (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 1.12% of total time (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: === Material stats ===
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Materials Translated:    245
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Material Total Translate Time: 0.13 s
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Material Translation Only: 0.06 s (45%)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: Material Cache Hits: 27 (11%)
+[2026.11.10-04.30.19:878][753]LogShaderCompilers: Display: ================================================
+[2026.11.10-04.30.25:794][449]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.25:794][449]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.25:794][449]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.30.25:794][449]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.25:831][451]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.25:832][451]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.25:832][451]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.25:832][451]MaterialEditorStats: Shader Count: 2
+[2026.11.10-04.30.25:832][451]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.26:653][545]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.30.26:653][545]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.26:653][545]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.30.26:653][545]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.26:653][545]MaterialEditorStats: Shader Count: 4
+[2026.11.10-04.30.26:653][545]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.29:889][920]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.29:889][920]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.29:889][920]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.30.29:889][920]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.29:920][924]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.29:920][924]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.29:920][924]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.29:920][924]MaterialEditorStats: Shader Count: 2
+[2026.11.10-04.30.29:920][924]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.30:679][ 14]MaterialEditorStats: Base pass shader: 174 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.30.30:679][ 14]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.30:679][ 14]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.30.30:679][ 14]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.30:679][ 14]MaterialEditorStats: Shader Count: 4
+[2026.11.10-04.30.30:679][ 14]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.31:055][ 57]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.31:055][ 57]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.31:055][ 57]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.30.31:055][ 57]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.31:078][ 60]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.31:078][ 60]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.31:078][ 60]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.31:078][ 60]MaterialEditorStats: Shader Count: 2
+[2026.11.10-04.30.31:078][ 60]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.31:711][136]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.30.31:711][136]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.31:712][136]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.30.31:712][136]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.31:712][136]MaterialEditorStats: Shader Count: 4
+[2026.11.10-04.30.31:712][136]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.36:352][672]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.10-04.30.40:772][192]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.40:772][192]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.40:772][192]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.30.40:772][192]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.40:815][194]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.30.40:815][194]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.40:815][194]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.30.40:815][194]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.40:815][194]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.30.40:815][194]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.44:428][604]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.44:428][604]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.44:428][604]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.30.44:428][604]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.44:465][606]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.44:465][606]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.44:465][606]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.44:465][606]MaterialEditorStats: Shader Count: 2
+[2026.11.10-04.30.44:465][606]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.45:173][679]MaterialEditorStats: Base pass shader: 172 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.30.45:173][679]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.45:173][679]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.30.45:173][679]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.45:173][679]MaterialEditorStats: Shader Count: 4
+[2026.11.10-04.30.45:173][679]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.50:073][264]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.50:073][264]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.50:075][264]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.30.50:075][264]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.50:097][267]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.50:097][267]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.50:097][267]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.50:097][267]MaterialEditorStats: Shader Count: 2
+[2026.11.10-04.30.50:097][267]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.50:747][345]MaterialEditorStats: Base pass shader: 172 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.30.50:747][345]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.50:747][345]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.30.50:747][345]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.50:747][345]MaterialEditorStats: Shader Count: 4
+[2026.11.10-04.30.50:747][345]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.52:382][538]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.52:382][538]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.52:382][538]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.30.52:382][538]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.52:413][542]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.52:413][542]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.30.52:413][542]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.52:413][542]MaterialEditorStats: Shader Count: 2
+[2026.11.10-04.30.52:413][542]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.30.53:088][623]MaterialEditorStats: Base pass shader: 172 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.30.53:088][623]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.30.53:088][623]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.30.53:088][623]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.30.53:088][623]MaterialEditorStats: Shader Count: 4
+[2026.11.10-04.30.53:088][623]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.31.06:723][186]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.31.06:723][186]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.31.06:723][186]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.31.06:723][186]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.31.06:750][189]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.31.06:750][189]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.31.06:750][189]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.31.06:750][189]MaterialEditorStats: Shader Count: 2
+[2026.11.10-04.31.06:750][189]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.31.07:475][276]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.31.07:476][276]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.31.07:476][276]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.31.07:476][276]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.31.07:476][276]MaterialEditorStats: Shader Count: 4
+[2026.11.10-04.31.07:476][276]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.31.09:290][491]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.31.09:290][491]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.31.09:290][491]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.31.09:290][491]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.31.09:316][494]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.31.09:316][494]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.31.09:316][494]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.31.09:316][494]MaterialEditorStats: Shader Count: 2
+[2026.11.10-04.31.09:316][494]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.31.10:049][582]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.31.10:049][582]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.31.10:049][582]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.31.10:049][582]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.31.10:049][582]MaterialEditorStats: Shader Count: 4
+[2026.11.10-04.31.10:049][582]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.31.12:476][859]LogSlate: Window 'Color Picker' being destroyed
+[2026.11.10-04.31.12:482][859]MaterialEditorStats: Texture samplers: 0/16
+[2026.11.10-04.31.12:482][859]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.31.12:482][859]MaterialEditorStats: Shader Count: 0
+[2026.11.10-04.31.12:482][859]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.31.12:515][863]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.11.10-04.31.12:515][863]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.11.10-04.31.12:515][863]MaterialEditorStats: Texture samplers: 1/16
+[2026.11.10-04.31.12:515][863]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.11.10-04.31.12:515][863]MaterialEditorStats: Shader Count: 5
+[2026.11.10-04.31.12:515][863]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.11.10-04.31.16:510][340]LogMaterialEditor: Saving and Compiling material PlayerChar_MAT
+[2026.11.10-04.31.16:640][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.11.10-04.31.17:706][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.11.10-04.31.17:716][340]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-04.31.17:759][340]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/PlayerChar_MAT] ([1] browsable assets)...
+[2026.11.10-04.31.17:768][340]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Player/PlayerChar_MAT.PlayerChar_MAT]
+[2026.11.10-04.31.17:768][340]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_MAT]
+[2026.11.10-04.31.17:768][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_MAT" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_MAT.uasset" SILENT=true
+[2026.11.10-04.31.17:775][340]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_MAT
+[2026.11.10-04.31.17:777][340]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerChar_MAT04B16E884B89D7C017CC3294311C3273.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_MAT.uasset'
+[2026.11.10-04.31.17:786][340]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.444 ms (total: 1.00 sec)
+[2026.11.10-04.31.17:842][340]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.10-04.31.17:842][340]LogContentValidation: Enabled validators:
+[2026.11.10-04.31.17:842][340]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-04.31.17:842][340]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-04.31.17:842][340]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-04.31.17:842][340]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-04.31.17:842][340]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-04.31.17:842][340]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-04.31.17:842][340]AssetCheck: /Game/Player/PlayerChar_MAT Validating asset
