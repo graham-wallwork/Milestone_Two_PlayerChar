@@ -3433,3 +3433,184 @@ Sampler Limit: 32
 [2026.11.10-04.31.17:842][340]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.11.10-04.31.17:842][340]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.11.10-04.31.17:842][340]AssetCheck: /Game/Player/PlayerChar_MAT Validating asset
+[2026.11.10-04.32.26:175][ 53]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-04.32.26:176][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.32.26:212][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2026.11.10-04.32.55:625][401]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-04.32.55:675][401]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/PlayerChar_BP] ([2] browsable assets)...
+[2026.11.10-04.32.55:675][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_BP]
+[2026.11.10-04.32.55:675][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_BP" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset" SILENT=true
+[2026.11.10-04.32.55:690][401]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_BP
+[2026.11.10-04.32.55:692][401]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerChar_BPBA57B79C4DFAC7CA427CE1880B2E6F65.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset'
+[2026.11.10-04.32.55:700][401]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.194 ms (total: 1.08 sec)
+[2026.11.10-04.32.55:759][401]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.10-04.32.55:759][401]LogContentValidation: Enabled validators:
+[2026.11.10-04.32.55:759][401]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-04.32.55:759][401]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-04.32.55:759][401]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-04.32.55:759][401]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-04.32.55:759][401]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-04.32.55:759][401]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-04.32.55:759][401]AssetCheck: /Game/Player/PlayerChar_BP Validating asset
+[2026.11.10-04.32.57:605][608]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2026.11.10-04.32.57:659][608]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.11.10-04.33.01:723][875]LogStaticMesh: Display: Building static mesh Cylinder (Required Memory Estimate: 0.815833 MB)...
+[2026.11.10-04.33.01:729][875]LogStaticMesh: Built static mesh [0.01s] /Engine/BasicShapes/Cylinder.Cylinder
+[2026.11.10-04.33.03:626][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-04.33.03:676][ 25]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/BasicShapes/Cylinder] ([1] browsable assets)...
+[2026.11.10-04.33.03:683][ 25]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Engine/BasicShapes/Cylinder.Cylinder]
+[2026.11.10-04.33.03:683][ 25]OBJ SavePackage: Finished generating thumbnails for package [/Engine/BasicShapes/Cylinder]
+[2026.11.10-04.33.03:683][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Cylinder" FILE="../../../Engine/Content/BasicShapes/Cylinder.uasset" SILENT=true
+[2026.11.10-04.33.03:695][ 25]LogSavePackage: Moving output files for package: /Engine/BasicShapes/Cylinder
+[2026.11.10-04.33.03:696][ 25]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/CylinderC8B965F446EE6AE3A7B9D4BB0B4A2947.tmp' to '../../../Engine/Content/BasicShapes/Cylinder.uasset'
+[2026.11.10-04.33.03:703][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave took 77.334 ms (total: 1.15 sec)
+[2026.11.10-04.33.03:759][ 25]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.10-04.33.03:759][ 25]LogContentValidation: Enabled validators:
+[2026.11.10-04.33.03:759][ 25]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-04.33.03:759][ 25]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-04.33.03:759][ 25]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-04.33.03:759][ 25]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-04.33.03:759][ 25]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-04.33.03:759][ 25]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-04.33.03:759][ 25]AssetCheck: /Engine/BasicShapes/Cylinder Validating asset
+[2026.11.10-04.33.03:779][ 25]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.10-04.33.06:945][301]LogSlate: Window 'Cylinder' being destroyed
+[2026.11.10-04.33.06:949][301]LogSlate: Window 'Cylinder' being destroyed
+[2026.11.10-04.33.07:012][301]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-04.33.07:012][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.33.07:060][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.11.10-04.33.10:813][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.11.10-04.33.11:749][828]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-04.33.11:792][828]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player/PlayerChar_BP] ([2] browsable assets)...
+[2026.11.10-04.33.11:799][828]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerChar_BP.PlayerChar_BP]
+[2026.11.10-04.33.11:799][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_BP]
+[2026.11.10-04.33.11:799][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_BP" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset" SILENT=true
+[2026.11.10-04.33.11:813][828]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_BP
+[2026.11.10-04.33.11:815][828]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerChar_BPB859E9914B2A3D6AE4BADB8A848AA8E5.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset'
+[2026.11.10-04.33.11:822][828]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.946 ms (total: 1.23 sec)
+[2026.11.10-04.33.11:875][828]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.10-04.33.11:875][828]LogContentValidation: Enabled validators:
+[2026.11.10-04.33.11:875][828]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-04.33.11:875][828]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-04.33.11:875][828]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-04.33.11:875][828]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-04.33.11:875][828]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-04.33.11:875][828]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-04.33.11:875][828]AssetCheck: /Game/Player/PlayerChar_BP Validating asset
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: ================================================
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Total job queries 1,041, among them cache hits 490 (47.07%), DDC hits 355 (34.10%), Duplicates 71 (6.82%)
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Tracking 480 distinct input hashes that result in 359 distinct outputs (74.79%)
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: RAM used: 3.99 MiB of 1.60 GiB budget. Usage: 0.24%
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Shaders Compiled: 125
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Jobs assigned 125, completed 125 (100%)
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Average time worker was idle: 42.25 s
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Job execution time: average 0.72 s, max 1.23 s
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Job life time (pending + execution): average 0.78 s, max 1.30
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Shader code size: total 918.998 KiB, numShaders 125, average 7.352 KiB, min 4.273 KiB, max 11.245 KiB
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 41.38 s
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Jobs were issued in 125 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Average processing rate: 3.02 jobs/sec
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Total thread time: 75.166 s
+[2026.11.10-04.33.19:882][645]LogShaderCompilers: Display: Total thread preprocess time: 13.369 s
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display: Percentage time preprocessing: 17.79%
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display: Effective parallelization: 1.82 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.227076
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   34 times, average 0.94 sec, max 1.06 sec, min 0.78 sec)
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    2 times, average 0.72 sec, max 0.73 sec, min 0.72 sec)
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    2 times, average 0.63 sec, max 0.64 sec, min 0.63 sec)
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   52 times, average 0.52 sec, max 0.63 sec, min 0.36 sec)
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled   33 times, average 0.38 sec, max 0.43 sec, min 0.29 sec)
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 42.73% of total time (compiled   34 times, average 0.94 sec, max 1.06 sec, min 0.78 sec)
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 36.23% of total time (compiled   52 times, average 0.52 sec, max 0.63 sec, min 0.36 sec)
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display:                                                 FLumenCardPS - 16.47% of total time (compiled   33 times, average 0.38 sec, max 0.43 sec, min 0.29 sec)
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display:                                             FDebugViewModePS - 1.92% of total time (compiled    2 times, average 0.72 sec, max 0.73 sec, min 0.72 sec)
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 1.68% of total time (compiled    2 times, average 0.63 sec, max 0.64 sec, min 0.63 sec)
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display: === Material stats ===
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display: Materials Translated:    263
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display: Material Total Translate Time: 0.13 s
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display: Material Translation Only: 0.06 s (45%)
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display: Material Cache Hits: 27 (10%)
+[2026.11.10-04.33.19:883][645]LogShaderCompilers: Display: ================================================
+[2026.11.10-04.34.23:639][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-04.34.23:692][266]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/PlayerChar_BP] ([2] browsable assets)...
+[2026.11.10-04.34.23:692][266]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_BP]
+[2026.11.10-04.34.23:692][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_BP" FILE="../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset" SILENT=true
+[2026.11.10-04.34.23:709][266]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_BP
+[2026.11.10-04.34.23:711][266]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/PlayerChar_BP3F056E2348FFB95ABE5111BF87ECD001.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Player/PlayerChar_BP.uasset'
+[2026.11.10-04.34.23:720][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.349 ms (total: 1.31 sec)
+[2026.11.10-04.34.23:776][266]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.10-04.34.23:776][266]LogContentValidation: Enabled validators:
+[2026.11.10-04.34.23:776][266]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-04.34.23:776][266]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-04.34.23:776][266]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-04.34.23:776][266]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-04.34.23:776][266]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-04.34.23:776][266]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-04.34.23:776][266]AssetCheck: /Game/Player/PlayerChar_BP Validating asset
+[2026.11.10-04.34.27:718][615]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.10-04.34.27:723][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.10-04.34.27:755][615]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_ArenaMap
+[2026.11.10-04.34.27:758][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003005s)
+[2026.11.10-04.34.27:758][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/ArenaMap.ArenaMap to /Game/Map/UEDPIE_0_ArenaMap.ArenaMap (0.003050s)
+[2026.11.10-04.34.27:780][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.11.10-04.34.27:786][615]LogChaosDD: Creating Chaos Debug Draw Scene for world ArenaMap
+[2026.11.10-04.34.27:788][615]LogPlayLevel: PIE: World Init took: (0.001513s)
+[2026.11.10-04.34.27:788][615]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.11.10-04.34.27:788][615]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.10-04.34.27:788][615]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.10-04.34.27:788][615]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.10-04.34.27:788][615]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.10-04.34.27:788][615]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.10-04.34.27:788][615]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.10-04.34.27:788][615]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.10-04.34.27:788][615]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.10-04.34.27:788][615]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.10-04.34.27:788][615]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.10-04.34.27:788][615]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.10-04.34.27:790][615]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.10-04.34.27:816][615]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (5- G535 Wireless Gaming Headset)
+[2026.11.10-04.34.27:816][615]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.10-04.34.27:816][615]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.10-04.34.27:816][615]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.10-04.34.27:816][615]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.11.10-04.34.27:817][615]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.11.10-04.34.27:819][615]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.11.10-04.34.27:819][615]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.11.10-04.34.27:819][615]LogInit: FAudioDevice initialized with ID 5.
+[2026.11.10-04.34.27:819][615]LogAudio: Display: Audio Device (ID: 5) registered with world 'ArenaMap'.
+[2026.11.10-04.34.27:819][615]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.11.10-04.34.27:822][615]LogLoad: Game class is 'ArenaMode_C'
+[2026.11.10-04.34.27:823][615]LogWorld: Bringing World /Game/Map/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2026.11.09-20.34.27
+[2026.11.10-04.34.27:824][615]LogWorld: Bringing up level for play took: 0.000950
+[2026.11.10-04.34.27:825][615]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2026.11.10-04.34.27:826][615]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(PlayerChar_BP_C /Game/Map/UEDPIE_0_ArenaMap.ArenaMap:PersistentLevel.PlayerChar_BP_C_0)
+[2026.11.10-04.34.27:828][615]PIE: Server logged in
+[2026.11.10-04.34.27:829][615]PIE: Play in editor total start time 0.105 seconds.
+[2026.11.10-04.34.27:877][616]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.10-04.34.40:856][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.10-04.34.40:856][918]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_ArenaMap
+[2026.11.10-04.34.40:856][918]LogWorld: UWorld::CleanupWorld for ArenaMap, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-04.34.40:856][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.34.40:857][918]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.10-04.34.40:862][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.34.40:883][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.10-04.34.40:883][918]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.11.10-04.34.40:883][918]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.11.10-04.34.40:887][918]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.11.10-04.34.40:893][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.11.10-04.34.40:947][919]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2026.11.10-04.35.01:443][835]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-04.35.01:443][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.35.01:512][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.11.10-04.35.13:891][473]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3179.250488
+[2026.11.10-04.35.14:892][476]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.10-04.35.14:892][476]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3179.917725, Update Interval: 347.227997
