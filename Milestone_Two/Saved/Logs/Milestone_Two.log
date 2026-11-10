@@ -2371,3 +2371,37 @@ Sampler Limit: 32
 [2026.11.10-04.15.36:599][620]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.11.10-04.15.36:599][620]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.11.10-04.15.36:599][620]AssetCheck: /Game/Player/DestructibleObject_BP Validating asset
+[2026.11.10-04.17.27:668][304]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2112.992188
+[2026.11.10-04.17.28:668][307]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.10-04.17.28:668][307]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2113.658936, Update Interval: 305.214996
+[2026.11.10-04.17.57:375][317]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.11.10-04.18.03:986][954]Cmd: TRANSACTION UNDO
+[2026.11.10-04.18.03:986][954]LogEditorTransaction: Undo Place Objects
+[2026.11.10-04.18.17:253][161]Cmd: TRANSACTION UNDO
+[2026.11.10-04.18.17:253][161]LogEditorTransaction: Undo Place Objects
+[2026.11.10-04.19.07:769][884]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.19.07:769][884]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.19.07:771][884]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_0
+[2026.11.10-04.19.07:772][884]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_0
+[2026.11.10-04.19.07:776][884]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.11.10-04.19.09:369][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.11.10-04.19.09:376][ 60]LogEditorActor: Deleted 0 Actors (0.031 secs)
+[2026.11.10-04.19.09:382][ 60]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.19.09:382][ 60]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.19.09:384][ 60]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_1
+[2026.11.10-04.19.09:385][ 60]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_1
+[2026.11.10-04.20.53:836][733]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-04.20.53:945][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2026.11.10-04.20.53:969][733]LogSavePackage: Moving output files for package: /Game/Map/ArenaMap
+[2026.11.10-04.20.53:971][733]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/ArenaMap0F1B076F442B1B192FDEAB8E9E47EF6D.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Map/ArenaMap.umap'
+[2026.11.10-04.20.53:983][733]LogFileHelpers: Saving map 'ArenaMap' took 0.087
+[2026.11.10-04.20.53:993][733]LogFileHelpers: InternalPromptForCheckoutAndSave took 157.464 ms (total: 616.809 ms)
+[2026.11.10-04.20.54:047][733]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.10-04.20.54:047][733]LogContentValidation: Enabled validators:
+[2026.11.10-04.20.54:047][733]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-04.20.54:047][733]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-04.20.54:047][733]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-04.20.54:047][733]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-04.20.54:047][733]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-04.20.54:047][733]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-04.20.54:048][733]AssetCheck: /Game/Map/ArenaMap Validating asset
