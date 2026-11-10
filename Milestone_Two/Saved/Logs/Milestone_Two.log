@@ -2405,3 +2405,146 @@ Sampler Limit: 32
 [2026.11.10-04.20.54:047][733]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.11.10-04.20.54:047][733]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.11.10-04.20.54:048][733]AssetCheck: /Game/Map/ArenaMap Validating asset
+[2026.11.10-04.21.58:049][667]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.11.10-04.21.58:057][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.10-04.21.58:062][667]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.11.10-04.21.58:062][667]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2026.11.10-04.21.58:063][667]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_ArenaMap
+[2026.11.10-04.21.58:065][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002321s)
+[2026.11.10-04.21.58:065][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/ArenaMap.ArenaMap to /Game/Map/UEDPIE_0_ArenaMap.ArenaMap (0.002370s)
+[2026.11.10-04.21.58:085][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.11.10-04.21.58:088][667]LogChaosDD: Creating Chaos Debug Draw Scene for world ArenaMap
+[2026.11.10-04.21.58:089][667]LogPlayLevel: PIE: World Init took: (0.001606s)
+[2026.11.10-04.21.58:090][667]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.11.10-04.21.58:090][667]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.10-04.21.58:090][667]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.10-04.21.58:090][667]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.10-04.21.58:090][667]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.10-04.21.58:090][667]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.10-04.21.58:090][667]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.10-04.21.58:090][667]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.10-04.21.58:090][667]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.10-04.21.58:090][667]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.10-04.21.58:090][667]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.10-04.21.58:090][667]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.10-04.21.58:092][667]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.10-04.21.58:118][667]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (5- G535 Wireless Gaming Headset)
+[2026.11.10-04.21.58:118][667]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.10-04.21.58:118][667]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.10-04.21.58:118][667]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.10-04.21.58:119][667]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.11.10-04.21.58:119][667]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.11.10-04.21.58:121][667]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.11.10-04.21.58:122][667]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.11.10-04.21.58:122][667]LogInit: FAudioDevice initialized with ID 2.
+[2026.11.10-04.21.58:122][667]LogAudio: Display: Audio Device (ID: 2) registered with world 'ArenaMap'.
+[2026.11.10-04.21.58:122][667]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.11.10-04.21.58:126][667]LogLoad: Game class is 'ArenaMode_C'
+[2026.11.10-04.21.58:127][667]LogWorld: Bringing World /Game/Map/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2026.11.09-20.21.58
+[2026.11.10-04.21.58:127][667]LogWorld: Bringing up level for play took: 0.000868
+[2026.11.10-04.21.58:129][667]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2026.11.10-04.21.58:142][667]PIE: Server logged in
+[2026.11.10-04.21.58:144][667]PIE: Play in editor total start time 0.088 seconds.
+[2026.11.10-04.21.58:202][668]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.10-04.22.05:098][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.10-04.22.05:098][323]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_ArenaMap
+[2026.11.10-04.22.05:098][323]LogWorld: UWorld::CleanupWorld for ArenaMap, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-04.22.05:099][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.22.05:100][323]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.10-04.22.05:106][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-04.22.05:124][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.10-04.22.05:124][323]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.11.10-04.22.05:124][323]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.11.10-04.22.05:127][323]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.11.10-04.22.05:132][323]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.11.10-04.22.05:204][324]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2026.11.10-04.22.09:608][701]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.09:608][701]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.09:610][701]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_2
+[2026.11.10-04.22.09:611][701]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_2
+[2026.11.10-04.22.10:927][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.11.10-04.22.10:929][817]LogEditorActor: Deleted 0 Actors (0.027 secs)
+[2026.11.10-04.22.10:935][817]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.10:935][817]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.10:936][817]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_3
+[2026.11.10-04.22.10:937][817]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_3
+[2026.11.10-04.22.13:809][ 41]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.13:809][ 41]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.13:810][ 41]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_4
+[2026.11.10-04.22.13:811][ 41]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_4
+[2026.11.10-04.22.15:210][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.11.10-04.22.15:217][158]LogEditorActor: Deleted 0 Actors (0.029 secs)
+[2026.11.10-04.22.15:222][158]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.15:222][158]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.15:224][158]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_5
+[2026.11.10-04.22.15:225][158]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_5
+[2026.11.10-04.22.17:794][360]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.17:795][360]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.17:796][360]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_6
+[2026.11.10-04.22.17:797][360]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_6
+[2026.11.10-04.22.19:858][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2026.11.10-04.22.19:865][540]LogEditorActor: Deleted 0 Actors (0.028 secs)
+[2026.11.10-04.22.19:870][540]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.19:870][540]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.19:872][540]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_7
+[2026.11.10-04.22.19:873][540]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_7
+[2026.11.10-04.22.40:627][385]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.40:627][385]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.40:628][385]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_8
+[2026.11.10-04.22.40:629][385]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_8
+[2026.11.10-04.22.43:150][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.11.10-04.22.43:160][611]LogEditorActor: Deleted 0 Actors (0.033 secs)
+[2026.11.10-04.22.43:165][611]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.43:165][611]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.43:167][611]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_9
+[2026.11.10-04.22.43:168][611]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_9
+[2026.11.10-04.22.48:754][ 91]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.48:754][ 91]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.48:755][ 91]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_10
+[2026.11.10-04.22.48:756][ 91]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_10
+[2026.11.10-04.22.50:356][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.11.10-04.22.50:362][226]LogEditorActor: Deleted 0 Actors (0.029 secs)
+[2026.11.10-04.22.50:368][226]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.50:368][226]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.50:369][226]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_11
+[2026.11.10-04.22.50:370][226]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_11
+[2026.11.10-04.22.58:405][917]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.58:405][917]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.22.58:406][917]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_12
+[2026.11.10-04.22.58:406][917]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_12
+[2026.11.10-04.23.01:681][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.11.10-04.23.01:687][214]LogEditorActor: Deleted 0 Actors (0.029 secs)
+[2026.11.10-04.23.01:693][214]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.23.01:693][214]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.23.01:695][214]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_13
+[2026.11.10-04.23.01:696][214]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_13
+[2026.11.10-04.23.04:772][467]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.23.04:772][467]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.23.04:773][467]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_14
+[2026.11.10-04.23.04:775][467]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_14
+[2026.11.10-04.23.08:157][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.11.10-04.23.08:163][763]LogEditorActor: Deleted 0 Actors (0.030 secs)
+[2026.11.10-04.23.08:168][763]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.23.08:168][763]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player/DestructibleObject_BP.DestructibleObject_BP_C
+[2026.11.10-04.23.08:171][763]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_15
+[2026.11.10-04.23.08:172][763]LogActorFactory: Actor Factory spawned Blueprint /Game/Player/DestructibleObject_BP.DestructibleObject_BP as actor: DestructibleObject_BP_C /Game/Map/ArenaMap.ArenaMap:PersistentLevel.DestructibleObject_BP_C_15
+[2026.11.10-04.23.22:158][  9]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2467.495850
+[2026.11.10-04.23.22:320][ 23]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.10-04.23.22:320][ 24]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2467.645996, Update Interval: 310.417175
+[2026.11.10-04.23.26:166][365]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-04.23.26:276][365]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.11.10-04.23.26:299][365]LogSavePackage: Moving output files for package: /Game/Map/ArenaMap
+[2026.11.10-04.23.26:300][365]LogSavePackage: Moving '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Saved/ArenaMap4B7F25B64990B513A54BC5A4DD2CC4CF.tmp' to '../../../../../../Users/graha/OneDrive/GAM-207/Module Three/Milestone Two/Milestone_Two/Content/Map/ArenaMap.umap'
+[2026.11.10-04.23.26:313][365]LogFileHelpers: Saving map 'ArenaMap' took 0.084
+[2026.11.10-04.23.26:328][365]LogFileHelpers: InternalPromptForCheckoutAndSave took 161.879 ms (total: 778.688 ms)
+[2026.11.10-04.23.26:380][365]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.10-04.23.26:380][365]LogContentValidation: Enabled validators:
+[2026.11.10-04.23.26:380][365]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-04.23.26:380][365]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-04.23.26:380][365]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-04.23.26:380][365]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-04.23.26:380][365]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-04.23.26:380][365]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-04.23.26:380][365]AssetCheck: /Game/Map/ArenaMap Validating asset
